@@ -1,0 +1,30 @@
+- what is the error when lambda throttles?
+    
+- arm vs x86. arm for low-cpu tasks?
+
+- how does aws manage it's sdk inside the environment?
+    They updated whenever they want. Not a big deal, but be aware.
+
+- we had to manually delete a stack in production. Is there another way?
+    rename resources in cfn template.
+    deletionPolicies to Retain
+
+- cognito to manage users. Is it cost effective?
+    yes!
+
+- Resource Policy IP-Whitelisting. Differences with WAF?
+
+- AWS IAM. How would that work in an scenario where I'm whitelisting an IP from the client?
+
+- for idempotency -> check redis and memcache
+
+- split features in many functions so retries can happen.
+    no need to think about idempotency then!
+
+- lambda power tunning -> can we introduce it in the platform?
+
+- local development -> check out https://www.serverless.com/plugins/serverless-offline
+
+- aws ABAC -> 
+    is it secure that we have the name of the role to assume in the tfm config?
+    

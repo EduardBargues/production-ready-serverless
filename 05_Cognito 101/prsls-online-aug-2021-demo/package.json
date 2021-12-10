@@ -1,0 +1,23 @@
+{
+  "name": "prsls-online-aug-2021-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sls": "serverless"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.973.0",
+    "dotenv": "^10.0.0",
+    "serverless": "^2.68.0",
+    "serverless-export-env": "^2.0.0"
+  },
+  "dependencies": {
+    "aws4": "^1.11.0",
+    "axios": "^0.21.1",
+    "mustache": "^4.2.0"
+  }
+}
